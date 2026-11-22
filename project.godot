@@ -1,0 +1,36 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="API8-TETRIS-TRACK3-2026"
+run/main_scene="uid://40dyxmb4xdve"
+config/features=PackedStringArray("4.6")
+
+[autoload]
+
+SilentWolf="*uid://v0fxgyv3exrm"
+
+[display]
+
+window/size/viewport_width=1800
+window/size/viewport_height=800
+
+[dotnet]
+
+project/assembly_name="UnnamedProject"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/silent_wolf/plugin.cfg")
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true
